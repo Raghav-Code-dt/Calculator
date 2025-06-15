@@ -1,1 +1,101 @@
+*{
+    background-color: #4A4A4A;
+    text-align: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;;
+}
 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    align-items: center;
+    /* border: 1px solid ; */
+    color: white;
+}
+
+.text-center{
+    margin: 20px;
+    background-color: orange;
+    width: 360px;
+    border-radius: 10px;
+}
+.main-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    padding: 25px;
+    background-color: rgb(20,20,20);
+    border-radius: 15px;
+}
+
+.input{
+    height:100px;
+    margin-bottom: 20px;;
+    padding:10px;
+    background-color: rgb(40,40,40);
+    border-radius: 10px;
+}
+
+@media (max-width: 400px)
+{
+    .text-center{
+        display: none;
+    }
+    .main{
+        scale: 90%;
+    }
+
+    .container{
+        margin:0px;
+    }
+}
+
+.button-panel{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px 10px;
+    background-color: rgb(20,20,20);
+}
+
+
+button{
+    width: 66.71px;  /*74.21px*/
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    height:66.46px;
+    font-size: 30px;
+    background-color: rgb(40,40,40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 300ms ease;
+}
+
+button.operator{
+    color: orange;
+}
+
+button.operator:hover{
+    color:white;
+}
+
+button:hover{
+    background-color: orange;
+    /* color:white; */
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+button .logo{
+    border-radius: 50%;
+    background-color: black;
+}
