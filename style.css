@@ -38,6 +38,37 @@
     padding:10px;
     background-color: rgb(40,40,40);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.input input{
+    height: 45px;
+    margin: 0px 0px 0px -10px;
+    padding: 0px;
+    /* border: 1px solid; */
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(40,40,40);
+    text-align: right;
+    /* mix-blend-mode: color */
+    border: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.upper{
+    flex :1.5;
+    font-size: 6vw;
+ 
+}
+
+.lower{
+    flex :2;
+    font-size: 9vw;
+
 }
 
 @media (max-width: 400px)
@@ -99,3 +130,13 @@ button .logo{
     border-radius: 50%;
     background-color: black;
 }
+
+.operator .backspace{
+    background-color: orange;
+    transition: 0s;
+    color:white;
+}
+
+.operator#back,
+.operator#equal,
+.operator#clear{background-color: orange; color:white}
