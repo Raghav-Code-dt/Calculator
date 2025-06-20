@@ -45,7 +45,7 @@
 
 .input input{
     height: 45px;
-    margin: 0px 0px 0px -10px;
+    margin: -7px 0px 0px -10px;
     padding: 0px;
     /* border: 1px solid; */
     width: 300px;
@@ -55,19 +55,19 @@
     /* mix-blend-mode: color */
     border: none;
     color: white;
-    padding: 10px;
+    padding: 10px;;
 
 }
 
 .upper{
     flex :1.5;
-    font-size: 6vw;
- 
+    font-size: 5vw;
+    
 }
 
 .lower{
     flex :2;
-    font-size: 9vw;
+    font-size: 7vw;
 
 }
 
