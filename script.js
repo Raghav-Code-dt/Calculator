@@ -43,5 +43,5 @@ function backspace(){
     const i = currentInput.split('')
     i.pop();
     currentInput = i.join('')
-    display[1].value = currentInput
+    display[1].value = currentInput;
 }
